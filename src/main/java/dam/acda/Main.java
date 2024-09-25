@@ -11,6 +11,7 @@ package dam.acda;
 
 
 import dam.acda.ut1.A1_Ficheros_Directorios;
+import dam.acda.ut1.A2_Ficheros_Caracteres;
 
 public class Main {
     public static void main(String[] args) {
@@ -19,7 +20,13 @@ public class Main {
     }
 
     private static void testUT1(String[] args) {
-        A1_Ficheros_Directorios a = new A1_Ficheros_Directorios();
-        a.start(args);
+
+        // Test Actividad 1
+        A1_Ficheros_Directorios a1 = new A1_Ficheros_Directorios();
+        a1.start(args);
+
+        // Test Actividad 2
+        A2_Ficheros_Caracteres a2 = new A2_Ficheros_Caracteres();
+        a2.start();
     }
 }

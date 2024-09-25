@@ -5,6 +5,8 @@ import java.io.File;
 public class A1_Ficheros_Directorios {
 
     public void start(String[] args) {
+        System.out.println("UT1 - A1 Ficheros y Directorios");
+
         // Verificamos si se ha pasado un argumento
         if (args.length == 0) {
             System.out.println("Por favor, proporciona una ruta de archivo o directorio.");
