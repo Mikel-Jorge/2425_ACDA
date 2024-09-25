@@ -10,13 +10,16 @@ package dam.acda;
 // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
 
 
+import dam.acda.ut1.A1_Ficheros_Directorios;
+
 public class Main {
     public static void main(String[] args) {
 
-        testUT1();
+        testUT1(args);
     }
 
-    private static void testUT1() {
-
+    private static void testUT1(String[] args) {
+        A1_Ficheros_Directorios a = new A1_Ficheros_Directorios();
+        a.start(args);
     }
 }
