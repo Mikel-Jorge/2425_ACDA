@@ -1,0 +1,45 @@
+{
+  "empresa": "Tech Solutions",
+  "ubicacion": {
+    "pais": "España",
+    "ciudad": "Madrid",
+    "direccion": "Calle Gran Vía 123"
+  },
+  "empleados": [
+    {
+      "nombre": "Juan Pérez",
+      "edad": 30,
+      "departamento": "Desarrollo",
+      "salario": 35000,
+      "activo": true
+    },
+    {
+      "nombre": "Ana López",
+      "edad": 28,
+      "departamento": "Marketing",
+      "salario": 28000,
+      "activo": true
+    },
+    {
+      "nombre": "Pedro García",
+      "edad": 40,
+      "departamento": "Administración",
+      "salario": 30000,
+      "activo": false
+    },
+    {
+      "nombre": "Laura Sánchez",
+      "edad": null,
+      "departamento": "Ventas",
+      "salario": null,
+      "activo": true
+    }
+  ],
+  "proyectos": [
+    "Sistema ERP",
+    "App Móvil",
+    "Consultoría"
+  ],
+  "beneficiosAnuales": 150000.50,
+  "proximaExpansion": null
+}

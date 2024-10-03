@@ -1,0 +1,34 @@
+{
+    "sumatorioSalarios": 63000,
+    "empleados": [
+        {
+            "salario": 35000,
+            "departamento": "Desarrollo",
+            "nombre": "Juan Pérez",
+            "edad": 30,
+            "activo": true
+        },
+        {
+            "salario": 28000,
+            "departamento": "Marketing",
+            "nombre": "Ana López",
+            "edad": 28,
+            "activo": true
+        },
+        {
+            "salario": 30000,
+            "departamento": "Administración",
+            "nombre": "Pedro García",
+            "edad": 40,
+            "activo": false
+        },
+        {
+            "salario": null,
+            "departamento": "Ventas",
+            "nombre": "Laura Sánchez",
+            "edad": null,
+            "activo": true
+        }
+    ],
+    "totalProyectos": 3
+}

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<videojuegos>
+    <videojuego popularidad="alta">
+        <nombre>Fortnite</nombre>
+        <plataformas>
+            <plataforma>PC</plataforma>
+            <plataforma>PlayStation</plataforma>
+            <plataforma>Xbox</plataforma>
+            <plataforma>Switch</plataforma>
+            <plataforma>Mobile</plataforma>
+        </plataformas>
+        <generos>
+            <genero>Battle Royale</genero>
+        </generos>
+        <anio>2017</anio>
+        <beneficios>Generó más de 5 mil millones de dólares en ingresos en 2021</beneficios>
+    </videojuego>
+    
+    <videojuego popularidad="media">
+        <nombre>Call of Duty: Warzone</nombre>
+        <plataformas>
+            <plataforma>PC</plataforma>
+            <plataforma>PlayStation</plataforma>
+            <plataforma>Xbox</plataforma>
+        </plataformas>
+        <generos>
+            <genero>Battle Royale</genero>
+            <genero>FPS</genero>
+        </generos>
+        <anio>2020</anio>
+        <beneficios>Superó los 125 millones de jugadores registrados</beneficios>
+    </videojuego>
+    
+    <videojuego popularidad="alta">
+        <nombre>FIFA 23</nombre>
+        <plataformas>
+            <plataforma>PC</plataforma>
+            <plataforma>PlayStation</plataforma>
+            <plataforma>Xbox</plataforma>
+            <plataforma>Switch</plataforma>
+        </plataformas>
+        <generos>
+            <genero>Deportes</genero>
+        </generos>
+        <anio>2022</anio>
+        <beneficios>Vendió más de 10 millones de copias en su primera semana</beneficios>
+    </videojuego>
+    
+    <videojuego popularidad="muy alta">
+        <nombre>Minecraft</nombre>
+        <plataformas>
+            <plataforma>PC</plataforma>
+            <plataforma>PlayStation</plataforma>
+            <plataforma>Xbox</plataforma>
+            <plataforma>Switch</plataforma>
+            <plataforma>Mobile</plataforma>
+        </plataformas>
+        <generos>
+            <genero>Sandbox</genero>
+        </generos>
+        <anio>2011</anio>
+        <beneficios>Ha vendido más de 238 millones de copias</beneficios>
+    </videojuego>
+    
+    <videojuego popularidad="media">
+        <nombre>Apex Legends</nombre>
+        <plataformas>
+            <plataforma>PC</plataforma>
+            <plataforma>PlayStation</plataforma>
+            <plataforma>Xbox</plataforma>
+            <plataforma>Switch</plataforma>
+        </plataformas>
+        <generos>
+            <genero>Battle Royale</genero>
+            <genero>FPS</genero>
+        </generos>
+        <anio>2019</anio>
+        <beneficios>Alcanzó más de 100 millones de jugadores en su primer año</beneficios>
+    </videojuego>
+    
+    <videojuego popularidad="alta">
+        <nombre>League of Legends</nombre>
+        <plataformas>
+            <plataforma>PC</plataforma>
+        </plataformas>
+        <generos>
+            <genero>MOBA</genero>
+        </generos>
+        <anio>2009</anio>
+        <beneficios>Más de 180 millones de jugadores mensuales en 2021</beneficios>
+    </videojuego>
+    
+    <videojuego popularidad="media">
+        <nombre>Valorant</nombre>
+        <plataformas>
+            <plataforma>PC</plataforma>
+        </plataformas>
+        <generos>
+            <genero>FPS</genero>
+        </generos>
+        <anio>2020</anio>
+        <beneficios>Superó los 14 millones de jugadores activos mensuales en 2021</beneficios>
+    </videojuego>
+    
+    <videojuego popularidad="alta">
+        <nombre>The Legend of Zelda: Breath of the Wild</nombre>
+        <plataformas>
+            <plataforma>Switch</plataforma>
+        </plataformas>
+        <generos>
+            <genero>Aventura</genero>
+            <genero>RPG</genero>
+        </generos>
+        <anio>2017</anio>
+        <beneficios>Ha vendido más de 30 millones de copias</beneficios>
+    </videojuego>
+    
+    <videojuego popularidad="alta">
+        <nombre>Genshin Impact</nombre>
+        <plataformas>
+            <plataforma>PC</plataforma>
+            <plataforma>PlayStation</plataforma>
+            <plataforma>Mobile</plataforma>
+        </plataformas>
+        <generos>
+            <genero>Aventura</genero>
+            <genero>RPG</genero>
+        </generos>
+        <anio>2020</anio>
+        <beneficios>Generó más de 3 mil millones de dólares en su primer año</beneficios>
+    </videojuego>
+    
+    <videojuego popularidad="media">
+        <nombre>Among Us</nombre>
+        <plataformas>
+            <plataforma>PC</plataforma>
+            <plataforma>PlayStation</plataforma>
+            <plataforma>Xbox</plataforma>
+            <plataforma>Switch</plataforma>
+            <plataforma>Mobile</plataforma>
+        </plataformas>
+        <generos>
+            <genero>Party</genero>
+            <genero>Multijugador</genero>
+        </generos>
+        <anio>2018</anio>
+        <beneficios>Alcanzó los 500 millones de jugadores activos mensuales en 2020</beneficios>
+    </videojuego>
+</videojuegos>

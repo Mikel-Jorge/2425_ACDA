@@ -8,7 +8,10 @@ import java.util.Scanner;
 public class A2_Ficheros_Caracteres {
 
     public void start() {
-        System.out.println("UT1 - A2 Ficheros por caracteres");
+        System.out.println("--------------------------------------");
+        System.out.println("-  UT1 - A2 Ficheros por caracteres  -");
+        System.out.println("--------------------------------------");
+
         Scanner scanner = new Scanner(System.in);
 
         // Pedimos al usuario que introduzca el nombre del fichero
