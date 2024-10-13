@@ -11,11 +11,45 @@ package dam.acda;
 
 
 import dam.acda.ut1.*;
+import dam.acda.ut2.UT2_CRUD;
+import dam.acda.ut2.UT2_Ejecucion_Script_SQL;
+import dam.acda.ut2.UT2_MetaData;
+
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
 
-        testUT1(args);
+        // testUT1(args);
+        testUT2();
+    }
+
+    private static void testUT2() {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("¿Quieres ver los metadatos de la base de datos?");
+        System.out.println("\t 1 --> Sí");
+        System.out.println("\t cualquier otra cosa --> No");
+        if (sc.nextLine().equals("1")) {
+            UT2_MetaData ut2_MetaData = new UT2_MetaData();
+            ut2_MetaData.start();
+        }
+
+        System.out.println("¿Quieres ejecutar el script videojuegos.sql?");
+        System.out.println("\t 1 --> Sí");
+        System.out.println("\t cualquier otra cosa --> No");
+        if (sc.nextLine().equals("1")) {
+            UT2_Ejecucion_Script_SQL ut2 = new UT2_Ejecucion_Script_SQL();
+            ut2.start();
+        }
+
+        System.out.println("¿Quieres probar el CRUD?");
+        System.out.println("\t 1 --> Sí");
+        System.out.println("\t cualquier otra cosa --> No");
+        if (sc.nextLine().equals("1")) {
+            UT2_CRUD ut2 = new UT2_CRUD();
+            ut2.start();
+        }
     }
 
     private static void testUT1(String[] args) {
