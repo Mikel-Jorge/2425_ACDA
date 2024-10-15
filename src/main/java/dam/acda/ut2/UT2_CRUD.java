@@ -3,8 +3,13 @@ package dam.acda.ut2;
 import dam.acda.ut2.db.dao.VideojuegoDAO;
 import dam.acda.ut2.db.model.Videojuego;
 import dam.acda.ut2.db.service.VideojuegoService;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class UT2_CRUD {
+
+    private static final Logger logger = LogManager.getLogger(UT2_CRUD.class.getName());
+
     public void start() {
         System.out.println("--------------------");
         System.out.println("--  UT2.4 - CRUD  --");
