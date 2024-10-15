@@ -31,6 +31,7 @@ public class ConexionBD {
         try {
             // Intentamos establecer la conexión
             conexion = DriverManager.getConnection(url, usuario, contrasena);
+            logger.info("Conexión establecida con la base de datos '" + ESQUEMA + "'");
         } catch (SQLException e) {
             logger.severe("Error al conectar a la base de datos: " + e.fillInStackTrace());
         }
