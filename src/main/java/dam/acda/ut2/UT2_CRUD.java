@@ -18,7 +18,7 @@ public class UT2_CRUD {
                 "Nintendo Switch",
                 2020,
                 19.95,
-                true));
+                true, null));
         if (resultado == 0)
             System.out.println("Juego insertado correctamente");
         else System.out.println("Error al insertar el videojuego");

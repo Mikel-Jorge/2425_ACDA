@@ -1,26 +1,28 @@
 package dam.acda.ut2.db.model;
 
 public class Videojuego {
-    private int id;
+    private int videojuegoID;
     private String titulo;
     private String plataforma;
     private int anioLanzamiento;
     private double precio;
     private boolean disponible;
+    private Historia historia;
 
     // Constructor completo
-    public Videojuego(int id, String titulo, String plataforma, int anioLanzamiento, double precio, boolean disponible) {
-        this.id = id;
+    public Videojuego(int videojuegoID, String titulo, String plataforma, int anioLanzamiento, double precio, boolean disponible, Historia historia) {
+        this.videojuegoID = videojuegoID;
         this.titulo = titulo;
         this.plataforma = plataforma;
         this.anioLanzamiento = anioLanzamiento;
         this.precio = precio;
         this.disponible = disponible;
+        this.historia = historia;
     }
 
     // getters and setters
-    public int getId() {
-        return id;
+    public int getVideojuegoID() {
+        return videojuegoID;
     }
 
     public String getTitulo() {
@@ -61,5 +63,13 @@ public class Videojuego {
 
     public void setDisponible(boolean disponible) {
         this.disponible = disponible;
+    }
+
+    public Historia getHistoria() {
+        return historia;
+    }
+
+    public void setHistoria(Historia historia) {
+        this.historia = historia;
     }
 }
