@@ -1,6 +1,8 @@
 package dam.acda.ut2;
 
 import dam.acda.ut2.db.conection.ConexionBD;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -9,6 +11,9 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class UT2_Ejecucion_Script_SQL {
+
+    private static final Logger logger = LogManager.getLogger(UT2_Ejecucion_Script_SQL.class.getName());
+
     public void start() {
         System.out.println("--------------------------------------");
         System.out.println("--  UT2.4.1 - Ejecución Script SQL  --");
@@ -29,9 +34,9 @@ public class UT2_Ejecucion_Script_SQL {
                 System.out.println("Error al conectar con la base de datos");
             }
         } catch (IOException e) {
-            System.out.println("Error al leer el fichero: " + e.fillInStackTrace());
+            logger.error("Error al leer el fichero: ", e.fillInStackTrace());
         } catch (SQLException e) {
-            System.out.println("Error al ejecutar el fichero: " + e.fillInStackTrace());
+            logger.error("Error al ejecutar el fichero: ", e.fillInStackTrace());
         }
     }
 

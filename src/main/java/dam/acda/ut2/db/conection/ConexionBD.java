@@ -1,15 +1,18 @@
 package dam.acda.ut2.db.conection;
 
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-import java.util.logging.Logger;
+
 
 public class ConexionBD {
 
     // Obtén una instancia del logger
-    private static final Logger logger = Logger.getLogger(ConexionBD.class.getName());
+    private static final Logger logger = LogManager.getLogger(ConexionBD.class.getName());
 
     // La única instancia de la clase
     private static ConexionBD instancia;
@@ -31,8 +34,9 @@ public class ConexionBD {
         try {
             // Intentamos establecer la conexión
             conexion = DriverManager.getConnection(url, usuario, contrasena);
+            logger.info("Conexión establecida con la base de datos '{}'", ESQUEMA);
         } catch (SQLException e) {
-            logger.severe("Error al conectar a la base de datos: " + e.fillInStackTrace());
+            logger.error("Error al conectar a la base de datos: ", e.fillInStackTrace());
         }
     }
 
